@@ -21,7 +21,7 @@ int main()
 
 		ptrField = OTurn(ptrField); // O TURN
 
-		oWin = OWin(ptrField); // O WINS
+		oWin = OWin(ptrField); // O WIN = TRUE/FALSE
 
 		if (oWin) // IF O WINS
 		{
@@ -35,7 +35,7 @@ int main()
 
 		ptrField = XTurn(ptrField); // X TURN
 
-		xWin = XWin(ptrField);
+		xWin = XWin(ptrField); // X WIN = TRUE/FALSE
 
 		if (xWin) // IF X WINS
 		{
