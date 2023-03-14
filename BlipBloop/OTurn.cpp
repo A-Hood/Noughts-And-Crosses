@@ -9,7 +9,7 @@ std::string* OTurn(std::string* ptrField)
 	int column_in_array = 0;
 	int row = 0;
 
-	std::cout << "\n\nWhat row do you want to put the X in? (1, 2, 3): ";
+	std::cout << "\n\nWhat row do you want to put the O in? (1, 2, 3): ";
 	std::cin >> row;
 
 	while (!(turnValid))
@@ -67,7 +67,7 @@ std::string* OTurn(std::string* ptrField)
 	std::cout << "\n\n";
 	turnValid = false;
 
-	std::cout << "What column do you want to put the X in? (1, 2, 3): ";
+	std::cout << "What column do you want to put the O in? (1, 2, 3): ";
 	std::cin >> column;
 
 	while (!(turnValid))
