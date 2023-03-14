@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Header.h"
 
-void OutputField(std::string* ptrField)
+void OutputField(std::string* ptrField) // OUTPUTS PLAY-FIELD
 {
 	std::cout << "\n";
 	std::cout << ptrField[0] << "|" << ptrField[1] << "|" << ptrField[2] << std::endl;

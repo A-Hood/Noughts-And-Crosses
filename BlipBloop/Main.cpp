@@ -3,19 +3,19 @@
 
 // NAUGHTS AND CROSSES
 
-std::string field[9] = { "   " ,"   " , "   ", "   " ,"   " , "   ", "   " ,"   " , "   " };
+std::string field[9] = { "   " ,"   " , "   ", "   " ,"   " , "   ", "   " ,"   " , "   " }; // FIELD ARRAY
 
-bool win = false;
+bool win = false; 
 bool oWin = false;
 bool xWin = false;
 
-std::string* ptrField = field;
+std::string* ptrField = field; // POINTER TO FIELD ARRAY
 
 int main()
 {
 	std::cout << "Welcome to Noughts and Crosses!\n\n\n";
 
-	while (!(win))
+	while (!(win)) // WHILE GAME IS ACTIVE
 	{
 		OutputField(ptrField); // OUTPUT FIELD
 
@@ -23,7 +23,7 @@ int main()
 
 		oWin = OWin(ptrField); // O WINS
 
-		if (oWin)
+		if (oWin) // IF O WINS
 		{
 			std::cout << "\n";
 			OutputField(ptrField); // OUTPUT FIELD
@@ -37,7 +37,7 @@ int main()
 
 		xWin = XWin(ptrField);
 
-		if (xWin)
+		if (xWin) // IF X WINS
 		{
 			std::cout << "\n";
 			OutputField(ptrField); // OUTPUT FIELD
