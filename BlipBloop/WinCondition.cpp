@@ -94,3 +94,13 @@ bool XWin(std::string* ptrField) // X WINS IF THIS
 
 	else { return false; }
 }
+
+bool Draw(std::string* ptrField)
+{
+	if (!(ptrField[0] == "   ") && !(ptrField[1] == "   ") && !(ptrField[2] == "   ") && !(ptrField[3] == "   ") && !(ptrField[4] == "   ") && !(ptrField[5] == "   ") && !(ptrField[6] == "   ") && !(ptrField[7] == "   ") && !(ptrField[8] == "   "))
+	{
+		return true;
+	}
+
+	else { return false; }
+}

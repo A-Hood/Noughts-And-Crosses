@@ -9,6 +9,7 @@ std::string field[9] = { "   " ,"   " , "   ", "   " ,"   " , "   ", "   " ,"   
 bool win = false; 
 bool oWin = false;
 bool xWin = false;
+bool draw = false;
 
 std::string* ptrField = field; // POINTER TO FIELD ARRAY
 // GLOABLS END
@@ -33,6 +34,16 @@ int main()
 			break;
 		}
 
+		draw = Draw(ptrField); // DRAW = TRUE/FALSE
+
+		if (draw) // IF DRAW
+		{
+			std::cout << "\n";
+			OutputField(ptrField); // OUTPUT FIELD
+			std::cout << "\n\n\n=!=!=!=!=!= IT WAS A DRAW!! =!=!=!=!=!=\n\n";
+			break;
+		}
+
 		OutputField(ptrField); // OUTPUT FIELD
 
 		ptrField = XTurn(ptrField); // X TURN
@@ -44,6 +55,16 @@ int main()
 			std::cout << "\n";
 			OutputField(ptrField); // OUTPUT FIELD
 			std::cout << "\n\n\n=!=!=!=!=!= X WINS!! =!=!=!=!=!=\n\n";
+			break;
+		}
+
+		draw = Draw(ptrField); // DRAW = TRUE/FALSE
+
+		if (draw) // IF DRAW
+		{
+			std::cout << "\n";
+			OutputField(ptrField); // OUTPUT FIELD
+			std::cout << "\n\n\n=!=!=!=!=!= IT WAS A DRAW!! =!=!=!=!=!=\n\n";
 			break;
 		}
 	}
