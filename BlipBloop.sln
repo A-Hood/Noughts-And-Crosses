@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlipBloop", "BlipBloop\BlipBloop.vcxproj", "{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Debug|x64.ActiveCfg = Debug|x64
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Debug|x64.Build.0 = Debug|x64
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Debug|x86.Build.0 = Debug|Win32
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Release|x64.ActiveCfg = Release|x64
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Release|x64.Build.0 = Release|x64
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Release|x86.ActiveCfg = Release|Win32
+		{9DD37CBA-13FE-406E-A4DF-3C5EBC102B83}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FB69022-D9D4-4F84-8FE3-3FCFCA48CF00}
+	EndGlobalSection
+EndGlobal
