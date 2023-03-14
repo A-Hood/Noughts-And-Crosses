@@ -3,6 +3,7 @@
 
 // NAUGHTS AND CROSSES
 
+// GLOBALS
 std::string field[9] = { "   " ,"   " , "   ", "   " ,"   " , "   ", "   " ,"   " , "   " }; // FIELD ARRAY
 
 bool win = false; 
@@ -10,6 +11,7 @@ bool oWin = false;
 bool xWin = false;
 
 std::string* ptrField = field; // POINTER TO FIELD ARRAY
+// GLOABLS END
 
 int main()
 {
@@ -45,8 +47,6 @@ int main()
 			break;
 		}
 	}
-
-
 }
 
 
