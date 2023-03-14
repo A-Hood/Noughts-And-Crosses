@@ -19,7 +19,7 @@ std::string* OTurn(std::string* ptrField)
 			if (!(ptrField[0] == "   ") && !(ptrField[1] == "   ") && !(ptrField[2] == "   ")) // IF ROW 1 HAS NO SPACE
 			{
 		
-				std::cout << "\n\nTurn invalid!\n\n";
+				std::cout << "\n\n[ERROR]: Turn invalid!\n\n";
 			}
 
 			if (ptrField[0] == "   " || ptrField[1] == "   " || ptrField[2] == "   ") // IF ANY OF ROW 1 HAS SPACE
@@ -34,7 +34,7 @@ std::string* OTurn(std::string* ptrField)
 		{
 			if (!(ptrField[3] == "   ") && !(ptrField[4] == "   ") && !(ptrField[5] == "   ")) // IF ROW 2 HAS NO SPACE
 			{
-						std::cout << "\n\nTurn invalid!\n\n";
+						std::cout << "\n\n[ERROR]: Turn invalid!\n\n";
 			}
 
 			if (ptrField[3] == "   " || ptrField[4] == "   " || ptrField[5] == "   ") // IF ANY OF ROW 2 HAS SPACE
@@ -49,7 +49,7 @@ std::string* OTurn(std::string* ptrField)
 		{
 			if (!(ptrField[6] == "   ") && !(ptrField[7] == "   ") && !(ptrField[8] == "   ")) // IF ROW 3 HAS NO SPACE
 			{
-				std::cout << "\n\nTurn invalid!\n";
+				std::cout << "\n\n[ERROR]: Turn invalid!\n\n";
 			}
 
 			if (ptrField[6] == "   " || ptrField[7] == "   " || ptrField[8] == "   ") // IF ROW 3 HAS ANY SPACE
@@ -76,11 +76,11 @@ std::string* OTurn(std::string* ptrField)
 		{
 			if (ptrField[column_in_array + 0] == " X ") // IF SPOT IS TAKEN
 			{
-				std::cout << "\n\nInvalid spot as it is taken!\n\n";
+				std::cout << "\n\n[ERROR]: Invalid spot as it is taken!\n\n";
 			}
 			else if (ptrField[column_in_array + 0] == " O ") // IF SPOT IS TAKEN
 			{
-				std::cout << "\n\nInvalid spot as it is taken!\n\n";
+				std::cout << "\n\n[ERROR]: Invalid spot as it is taken!\n\n";
 			}
 			else if (ptrField[column_in_array + 0] == "   ") // IF SPOT ISN'T TAKEN
 			{
@@ -93,11 +93,11 @@ std::string* OTurn(std::string* ptrField)
 		{
 			if (ptrField[column_in_array + 1] == " X ") // IF SPOT IS TAKEN
 			{
-				std::cout << "\n\nInvalid spot as it is taken!\n\n";
+				std::cout << "\n\n[ERROR]: Invalid spot as it is taken!\n\n";
 			}
 			else if (ptrField[column_in_array + 1] == " O ") // IF SPOT IS TAKEN
 			{
-				std::cout << "\n\nInvalid spot as it is taken!\n\n";
+				std::cout << "\n\n[ERROR]: Invalid spot as it is taken!\n\n";
 			}
 			else if (ptrField[column_in_array + 1] == "   ") // IF SPOT ISN'T TAKEN
 			{
@@ -110,11 +110,11 @@ std::string* OTurn(std::string* ptrField)
 		{
 			if (ptrField[column_in_array + 2] == " X ") // IF SPOT IS TAKEN
 			{
-				std::cout << "\n\nInvalid spot as it is taken!\n\n";
+				std::cout << "\n\n[ERROR]: Invalid spot as it is taken!\n\n";
 			}
 			else if (ptrField[column_in_array + 2] == " O ") // IF SPOT IS TAKEN
 			{
-				std::cout << "\n\nInvalid spot as it is taken!\n\n";
+				std::cout << "\n\n[ERROR]: Invalid spot as it is taken!\n\n";
 			}
 			else if (ptrField[column_in_array + 2] == "   ") // IF SPOT ISN'T TAKEN
 			{
